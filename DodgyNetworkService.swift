@@ -2,7 +2,7 @@ import Foundation
 
 class NetworkService {
     
-    let baseURL = "api.example.com"
+    let baseURL = "https://api.example.com"
     
     func fetchData(path: String) async throws -> Data {
         let url = URL(string: baseURL + path)! 
